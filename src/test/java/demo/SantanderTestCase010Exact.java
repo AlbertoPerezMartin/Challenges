@@ -81,8 +81,9 @@ public class SantanderTestCase010Exact {
 			throw e;
 		}
 		finally {
-			chromeDriver.close();//Close window
-		}
+			if(chromeDriver!=null) {
+				chromeDriver.quit();
+			}		}
 		
 		
 		

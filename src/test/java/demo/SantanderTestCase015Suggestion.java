@@ -63,8 +63,9 @@ public class SantanderTestCase015Suggestion {
 			throw e;
 		}
 		finally {
-			chromeDriver.close();//Close previous window
-		}
+			if(chromeDriver!=null) {
+				chromeDriver.quit();
+			}		}
 		
 		
 		
