@@ -1,5 +1,4 @@
-I didn't add a gitignore because I wanted to show the example of the reports that I integrated
-
+## Java version.
 The project is running on the java version 21.0.1
 
 # Code Challenges - Automation Test
@@ -25,7 +24,9 @@ There are 4 different classes on the "src/test/java/demo" folder, each one repre
 To run the TC you just have to open the class with the name representing the TC you wish to evaluate and then run that class. All those classes have a main method so it should be enough with those steps.
 
 I was planning on using JUnit for the TC but I thought it was better to keep it simple to show the programming and front end basics on the code.
-        
+
+## Regarding the gitignore.
+The project doesn't have a gitignore because I wanted to show the example of the reports that I integrated
 
 ### Report
 All TC's will fill a report using Extent Reports when executed that can be found on the "src/test/resources/reports" folder with the name "SparksReport.html".
